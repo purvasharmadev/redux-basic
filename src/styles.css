@@ -1,4 +1,20 @@
+body {
+  background-color: grey;
+}
+
 .App {
   font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: lightblue;
   text-align: center;
+}
+
+p {
+  padding-bottom: 12px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid black;
 }
