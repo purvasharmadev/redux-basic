@@ -18,7 +18,7 @@ import { Provider } from "react-redux";
 
 // step-3: import the created Reducers to make them available to all App
 import userReducer from "./features/user";
-
+import themeReducer from "./features/theme";
 // Creating a store
 const store = configureStore({
   // store is a collection of reducers
@@ -27,7 +27,8 @@ const store = configureStore({
   //  and also some sort of action that you want to perform
   // and return  the updated  value
   reducer: {
-    user: userReducer
+    user: userReducer,
+    theme: themeReducer
   }
 });
 

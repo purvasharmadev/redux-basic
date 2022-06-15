@@ -1,7 +1,7 @@
 import "./styles.css";
 import Profile from "./components/Profile";
 import Login from "./components/Login";
-
+import ChangeColor from "./components/ChangeColor";
 export default function App() {
   return (
     <div className="App">
@@ -10,6 +10,8 @@ export default function App() {
       <Profile />
 
       <Login />
+
+      <ChangeColor />
 
       {/* <h3>What is state management?</h3>
       <p>
